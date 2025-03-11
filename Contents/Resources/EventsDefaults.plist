@@ -6,6 +6,8 @@
 	<dict>
 		<key>ContactRequestReceived</key>
 		<dict>
+			<key>IsAlertSound</key>
+			<true/>
 			<key>EnableVisualNotification</key>
 			<true/>
 			<key>SortIndex</key>
@@ -29,6 +31,8 @@
 		<dict>
 			<key>EnableVisualNotification</key>
 			<false/>
+			<key>IsAlertSound</key>
+			<false/>
 			<key>SortIndex</key>
 			<integer>6</integer>
 			<key>Category</key>
@@ -49,6 +53,8 @@
 		<key>CallConnecting</key>
 		<dict>
 			<key>EnableVisualNotification</key>
+			<false/>
+			<key>IsAlertSound</key>
 			<false/>
 			<key>SortIndex</key>
 			<integer>2</integer>
@@ -71,6 +77,8 @@
 		<dict>
 			<key>EnableVisualNotification</key>
 			<false/>
+			<key>IsAlertSound</key>
+			<false/>
 			<key>SortIndex</key>
 			<integer>7</integer>
 			<key>Category</key>
@@ -91,6 +99,8 @@
 		<key>ResumeCall</key>
 		<dict>
 			<key>EnableVisualNotification</key>
+			<false/>
+			<key>IsAlertSound</key>
 			<false/>
 			<key>SortIndex</key>
 			<integer>8</integer>
@@ -113,6 +123,8 @@
 		<dict>
 			<key>EnableVisualNotification</key>
 			<true/>
+			<key>IsAlertSound</key>
+			<true/>
 			<key>SortIndex</key>
 			<integer>1</integer>
 			<key>Category</key>
@@ -133,6 +145,8 @@
 		<key>ContactBecomesAvailable</key>
 		<dict>
 			<key>EnableVisualNotification</key>
+			<true/>
+			<key>IsAlertSound</key>
 			<true/>
 			<key>SortIndex</key>
 			<integer>0</integer>
@@ -155,6 +169,8 @@
 		<dict>
 			<key>EnableVisualNotification</key>
 			<true/>
+			<key>IsAlertSound</key>
+			<true/>
 			<key>SortIndex</key>
 			<integer>1</integer>
 			<key>Category</key>
@@ -176,6 +192,8 @@
 		<dict>
 			<key>EnableVisualNotification</key>
 			<false/>
+			<key>IsAlertSound</key>
+			<false/>
 			<key>SortIndex</key>
 			<integer>4</integer>
 			<key>Category</key>
@@ -196,6 +214,8 @@
 		<key>IncomingCall</key>
 		<dict>
 			<key>EnableVisualNotification</key>
+			<false/>
+			<key>IsAlertSound</key>
 			<false/>
 			<key>SortIndex</key>
 			<integer>0</integer>
@@ -220,6 +240,8 @@
 		<dict>
 			<key>EnableVisualNotification</key>
 			<false/>
+			<key>IsAlertSound</key>
+			<false/>
 			<key>SortIndex</key>
 			<integer>1</integer>
 			<key>Category</key>
@@ -243,6 +265,8 @@
 		<dict>
 			<key>EnableVisualNotification</key>
 			<true/>
+			<key>IsAlertSound</key>
+			<true/>
 			<key>SortIndex</key>
 			<integer>0</integer>
 			<key>Category</key>
@@ -263,6 +287,8 @@
 		<key>MessageReceived</key>
 		<dict>
 			<key>EnableVisualNotification</key>
+			<true/>
+			<key>IsAlertSound</key>
 			<true/>
 			<key>SortIndex</key>
 			<integer>2</integer>
@@ -285,6 +311,8 @@
 		<dict>
 			<key>EnableVisualNotification</key>
 			<false/>
+			<key>IsAlertSound</key>
+			<true/>
 			<key>SortIndex</key>
 			<integer>1</integer>
 			<key>Category</key>
@@ -306,6 +334,8 @@
 		<dict>
 			<key>EnableVisualNotification</key>
 			<false/>
+			<key>IsAlertSound</key>
+			<true/>
 			<key>SortIndex</key>
 			<integer>4</integer>
 			<key>Category</key>
@@ -326,6 +356,8 @@
 		<key>SignIn</key>
 		<dict>
 			<key>EnableVisualNotification</key>
+			<false/>
+			<key>IsAlertSound</key>
 			<false/>
 			<key>SortIndex</key>
 			<integer>0</integer>
@@ -348,6 +380,8 @@
 		<dict>
 			<key>EnableVisualNotification</key>
 			<false/>
+			<key>IsAlertSound</key>
+			<false/>
 			<key>SortIndex</key>
 			<integer>1</integer>
 			<key>Category</key>
@@ -369,6 +403,8 @@
 		<dict>
 			<key>EnableVisualNotification</key>
 			<true/>
+			<key>IsAlertSound</key>
+			<true/>
 			<key>SortIndex</key>
 			<integer>0</integer>
 			<key>Category</key>
@@ -389,6 +425,8 @@
 		<key>OutgoingCall</key>
 		<dict>
 			<key>EnableVisualNotification</key>
+			<false/>
+			<key>IsAlertSound</key>
 			<false/>
 			<key>SortIndex</key>
 			<integer>3</integer>
@@ -413,6 +451,8 @@
 		<dict>
 			<key>EnableVisualNotification</key>
 			<false/>
+			<key>IsAlertSound</key>
+			<false/>
 			<key>SortIndex</key>
 			<integer>5</integer>
 			<key>Category</key>
@@ -433,6 +473,8 @@
 		<key>FileTransferCompleted</key>
 		<dict>
 			<key>EnableVisualNotification</key>
+			<true/>
+			<key>IsAlertSound</key>
 			<true/>
 			<key>SortIndex</key>
 			<integer>1</integer>
@@ -455,6 +497,8 @@
 		<dict>
 			<key>EnableVisualNotification</key>
 			<true/>
+			<key>IsAlertSound</key>
+			<true/>
 			<key>SortIndex</key>
 			<integer>2</integer>
 			<key>Category</key>
@@ -469,6 +513,52 @@
 			<false/>
 			<key>SoundToPlay</key>
 			<string>File Transfer Failed</string>
+			<key>Speak</key>
+			<false/>
+		</dict>
+		<key>DesktopAPIClientConnected</key>
+		<dict>
+			<key>EnableVisualNotification</key>
+			<true/>
+			<key>IsAlertSound</key>
+			<true/>
+			<key>SortIndex</key>
+			<integer>0</integer>
+			<key>Category</key>
+			<integer>6</integer>
+			<key>Display</key>
+			<true/>
+			<key>Bounce</key>
+			<false/>
+			<key>PlaySound</key>
+			<true/>
+			<key>RepeatBounce</key>
+			<false/>
+			<key>SoundToPlay</key>
+			<string>Connection</string>
+			<key>Speak</key>
+			<false/>
+		</dict>
+		<key>DesktopAPIClientConnected</key>
+		<dict>
+			<key>EnableVisualNotification</key>
+			<true/>
+			<key>IsAlertSound</key>
+			<true/>
+			<key>SortIndex</key>
+			<integer>0</integer>
+			<key>Category</key>
+			<integer>6</integer>
+			<key>Display</key>
+			<true/>
+			<key>Bounce</key>
+			<false/>
+			<key>PlaySound</key>
+			<true/>
+			<key>RepeatBounce</key>
+			<false/>
+			<key>SoundToPlay</key>
+			<string>Connection</string>
 			<key>Speak</key>
 			<false/>
 		</dict>

@@ -60,6 +60,8 @@ var main = function(){
 			_context = $("body");
 			if(SH.API && SH.API.getClient().language)
 				_language = SH.API.getClient().language;
+			else if (window.external.language)
+				_language = window.external.language;
 			this.setTranslationElements();
 			_languageScriptChange(function(){
 				thisObj.translate();

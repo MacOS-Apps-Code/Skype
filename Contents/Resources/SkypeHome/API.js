@@ -5,8 +5,8 @@ SH.API = function() {
 	
 	//setup api if it exists
 	try {
-		if (window.external && typeof window.external.getapi == "unknown") {
-			_api = window.external.getapi(0);
+		if (window.external && typeof window.external.getAPI == "unknown") {
+			_api = window.external.getAPI(0);
 		} else {
 			_api = false;
 		}

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
-<dictionary xmlns:xi="http://www.w3.org/2003/XInclude">
+<dictionary title="Skype">
 	<suite name="Standard Suite" code="core" description="Common classes and commands for all applications.">
 		<cocoa name="NSCoreSuite"/>
 		<class name="item" code="cobj" description="A scriptable object.">
@@ -32,6 +32,7 @@
 			<responds-to command="set">
 				<cocoa method=""/>
 			</responds-to>
+			
 		</class>
 		<class name="application" code="capp" description="The application&apos;s top-level scripting object.">
 			<cocoa class="NSApplication"/>
@@ -157,35 +158,27 @@
 			<result description="to the moved object(s)" type="specifier"/>
 		</command>
 	</suite>
-	
-	<suite name="Skype" description="AppleScript for Skype" code="SKAP">
+	<suite name="Skype" code="SKAP" description="AppleScript for Skype">
 		<command name="send" code="sendskap" description="Send command string to Skype API">
 			<cocoa class="SkypeCommandScriptCommand"/>
-			<parameter name="command" code="cmnd" type="text" description="command string">
+			<parameter name="command" code="cmnd" description="command string" type="text">
 				<cocoa key="aCommandString"/>
 			</parameter>
-			<parameter name="script name" code="scrp" type="text" description="name of the script sending the command">
+			<parameter name="script name" code="scrp" description="name of the script sending the command" type="text">
 				<cocoa key="aScriptName"/>
 			</parameter>
+			<result type="text"/>
 		</command>
-		
-		<!--
-		 <command name="register" code="register" description="Register an application with Growl">
-		 <cocoa class="GrowlRegisterScriptCommand"/>
-		 <parameter name="as application" code="appl" type="string" description="name of the application as which to register.">
-		 <cocoa key="asApplication"/>
-		 </parameter>
-		 <parameter name="all notifications" code="anot" type="list of string" description="list of all notifications to register.">
-		 <cocoa key="allNotifications"/>
-		 </parameter>
-		 <parameter name="default notifications" code="dnot" type="list of string" description="list of default notifications to register.">
-		 <cocoa key="defaultNotifications"/>
-		 </parameter>
-		 <parameter name="icon of application" optional="optional" code="iapp" type="string" description="Name of the application whose icon should be used for this notification. For example, 'Mail.app'.">
-		 <cocoa key="iconOfApplication"/>
-		 </parameter>
-		 </command>
-		 -->
-		
+	</suite>
+	<suite name="URLHandler commands" code="UrHD" description="Commands to handle a URL">
+		<command name="get URL" code="GURLGURL" description="Open a URL">
+			<cocoa name="GetURL" class="SkypeURIScriptCommand"/>
+			<direct-parameter type="text" hidden="yes" description="specifier : the object for the command"/>
+			<documentation>
+				<html><![CDATA[
+					<p>specifier : the object for the command.</p>
+				]]></html>
+			</documentation>
+		</command>
 	</suite>
 </dictionary>

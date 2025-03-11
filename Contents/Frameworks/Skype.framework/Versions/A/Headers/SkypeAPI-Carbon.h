@@ -9,7 +9,7 @@
  */
 
 #import <sys/cdefs.h>
-#import <Carbon/Carbon.h>
+@import Carbon;
 
 __BEGIN_DECLS
 
