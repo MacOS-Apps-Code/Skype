@@ -1,0 +1,239 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;text-decoration:none}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+body{line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+html{width:100%;height:100%;overflow:auto}
+body{background-color:#fff;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none;cursor:default}
+body{font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#bfebfb}
+a{color:#fff}
+body.working{cursor:wait}
+label,.passwordLabel,.usernameLabel{color:#bfebfb;font-size:13px;line-height:16px;font-weight:bold}
+.titleSmall{color:#bfebfb;font-size:13px;line-height:16px;font-weight:bold}
+.titleLarge{color:#fff;font-size:18px;line-height:normal;font-weight:bold}
+#skypelogo{width:154px;height:77px;position:absolute;display:none;top:14px;left:283px}
+.skypelogostatic{background:url(../images/skypelogo.png) 0 -1771px no-repeat}
+#background{position:absolute;left:0;top:0;width:720px;height:472px;background:#00aff0 url(../images/background.png) 0 0 no-repeat;overflow:hidden}
+div.view{display:none;width:672px;height:348px;padding:124px 24px 0;position:absolute;top:0;left:0;overflow:hidden}
+div.view.active{display:block}
+.contentWide{width:672px;position:absolute;top:104px;left:24px}
+.contentCenter{width:352px;position:absolute;top:104px;left:184px}
+.columnWrap{width:312px;position:relative}
+.contentHelper{position:relative;height:1px}
+.columnCenter{width:312px;position:relative}
+.margin-top{margin-top:16px}
+#usernameCombobox,#usernameComboboxSkype{position:relative;z-index:1}
+#liveLogin,#liveLoginEmailMessage{cursor:pointer;display:block;zoom:1;height:20px;line-height:20px}
+#liveLogin{background:url(../images/msAccount.png) left center no-repeat}
+#liveLoginEmailMessage{background:url(../images/msAccountColour.png) left center no-repeat}
+#liveLogin span,#liveLoginEmailMessage span{padding-left:25px;padding-right:25px;font-size:13px;display:inline-block;line-height:20px;zoom:1;font-weight:bold;*display:inline}
+body.rtl #liveLogin,body.rtl #liveLoginEmailMessage{background-position:right center}
+#facebookLogin,#facebookLoginEmailMessage{cursor:pointer;display:block;zoom:1;height:20px;line-height:20px;background:url(../images/fb.png) left center no-repeat}
+#facebookLogin span,#facebookLoginEmailMessage span{padding-left:25px;padding-right:25px;font-size:13px;line-height:20px;display:inline-block;font-weight:bold;zoom:1;*display:inline}
+body.rtl #facebookLogin,body.rtl #facebookLoginEmailMessage{background-position:right center}
+#liveLoginContainer{margin-top:14px}
+#facebookLoginContainer{margin-top:15px}
+.usernameLabelContainer{position:relative;width:312px;height:21px;padding-top:1px}
+.passwordLabelContainer{position:relative;width:312px;height:21px;padding-top:11px}
+#problemsSigningIn,#problemsSigningInSkype{position:absolute;right:0;top:11px;text-align:right;font-size:11px;line-height:16px;color:#fff}
+body.rtl #problemsSigningIn,body.rtl #problemsSigningInSkype{text-align:left;left:0;right:auto}
+.autoLoginContainer{padding-top:12px;padding-left:1px;margin-bottom:0}
+.signInContainer{margin-top:22px;width:320px}
+#createAccountInlineContainer{font-size:13px;color:#bfebfb}
+#createAccountInline{margin-left:5px;margin-right:0;font-weight:bold}
+body.rtl #createAccountInline{margin-right:5px;margin-left:0}
+#liveidHint{font-size:11px;line-height:13px;padding-left:26px}
+body.rtl #liveidHint{padding-left:0;padding-right:26px}
+.separator{position:absolute;left:336px;top:0;width:1px;height:192px;background-color:#009ad3}
+.separator.short{height:120px}
+.rightPanel{position:absolute;left:368px;top:1px;width:290px}
+.facebookOnly,.liveidOnly{display:none}
+.paragraph{margin-top:8px;font-size:11px;line-height:16px}
+.paragraph a{text-decoration:none;color:#fff}
+.paragraph a:hover{text-decoration:underline}
+.loader{display:none;top:40px;position:relative;height:96px;left:97px;right:0;bottom:0}
+.loader img{width:96px;height:96px}
+#loader{display:none;position:absolute;left:464px;top:39px;width:90px;height:90px}
+#loaderLoading{position:absolute;top:176px;left:315px}
+#nomappingTop{float:left;width:100%}
+#nomappingBottom{margin-top:21px;clear:both;float:left;width:100%}
+.primaryColumn{width:312px;float:left}
+.secondaryColumn{width:304px;float:right}
+body.rtl .primaryColumn{float:right}
+body.rtl .secondaryColumn{float:left}
+.primaryColumnReversed{width:304px;float:right}
+.secondaryColumnReversed{width:312px;float:left}
+body.rtl .primaryColumnReversed{float:left}
+body.rtl .secondaryColumnReversed{float:right}
+#partnerName{word-wrap:break-word}
+.pad{height:15px}
+.pixelpad{padding-left:1px}
+body.rtl .pixelpad{padding-right:1px}
+.touWrap{padding-top:7px}
+#signIn{margin-right:6px}
+body.rtl #signIn{margin-left:6px;margin-right:0}
+#connectAccounts,#signInSkype,#differentAccount,#nothanks,#createTechnical{margin-right:15px}
+body.rtl #connectAccounts,body.rtl #signInSkype,body.rtl #differentAccount,body.rtl #nothanks,body.rtl #createTechnical{margin-left:15px;margin-right:0}
+.backLink,.startAgainLink{font-size:13px;font-weight:bold;color:#fff;height:32px;line-height:32px;white-space:nowrap;position:relative;display:inline-block}
+#suggestionsContainer,#suggestionsAccountContainer{height:100px;overflow:hidden;margin-top:21px;position:relative}
+#differentAccountContainer,#differentSuggestAccountContainer{margin-top:24px}
+#formSkype{padding-top:5px}
+#suggestedAccount{margin-top:16px}
+#usernameWrap{margin-top:10px}
+.columnCenterWide{width:360px}
+#connectDetails{margin-top:21px;position:relative;height:48px}
+.picturesWrap{position:absolute;height:48px;width:96px}
+.profilePicture{width:48px;height:48px;vertical-align:middle;display:inline;position:absolute}
+#skypeAccountPicture{top:0;left:48px}
+#partnerAccountPicture{top:0;left:0}
+.profilePicture img{width:48px;height:48px}
+#connectIcon{position:absolute;z-index:1;top:12px;left:36px;width:24px;height:24px;background:url(../images/plus.png) no-repeat}
+#connectNames{position:absolute;left:110px;height:48px}
+#partnerAccountName{font-size:13px;color:#bfebfb;font-weight:bold}
+#skypeAccountName{margin-top:6px;font-size:13px;color:#bfebfb;font-weight:bold}
+.skypeBack{padding-left:28px;height:20px;line-height:20px;background:url(../images/skype.png) left center no-repeat}
+.liveidBack{padding-left:28px;height:20px;background:url(../images/msAccount.png) left center no-repeat;line-height:20px}
+.facebookBack{padding-left:28px;height:20px;background:url(../images/fb.png) left center no-repeat;line-height:20px}
+body.rtl .skypeBack,body.rtl .liveidBack,body.rtl .facebookBack{padding-left:0;padding-right:28px;background-position:right center}
+#connectMessageContainer{margin-top:10px}
+#connectAccountsContainer{margin-top:20px}
+.highlight{font-weight:bold}
+#messageErrorConflict{position:relative;padding-top:5px;margin-bottom:8px;background:url(../images/messageTopShort.png) center top no-repeat}
+#messageErrorConflict .messageBottom{background:url(../images/messageBottomShort.png) center top no-repeat}
+#messageBodyConflict{padding-top:4px;padding-bottom:5px;padding-left:32px;background-color:#e5f7fd;font-size:13px;line-height:16px;color:#636363;margin-left:1px;margin-right:1px}
+body.rtl #messageBodyConflict{padding-left:0;padding-right:32px}
+#messageBodyConflict a{color:#06f}
+#messageBodyConflict a:hover{color:#3a9eeb}
+#conflictOptions{list-style-type:disc;list-style-position:outside;font-size:11px;line-height:16px;padding-left:11px}
+body.rtl #conflictOptions{padding-right:11px;padding-left:0}
+.conflictOption{margin:5px 0 7px}
+#conflictOptionsContainer{margin-top:8px}
+#liveidCSLink{font-size:11px;line-height:16px}
+#facebookCSLink{font-size:11px;line-height:16px}
+#linkCSContainer{margin-top:15px}
+#wrongAccountParagraph{font-size:11px}
+.emailMessage .emailMessageLinks li{margin-top:5px}
+.emailMessage .emailMessageLinks a{color:#0078ca}
+.button{display:inline-block;cursor:default;height:32px;background:url(../images/buttons.png) right -32px no-repeat;zoom:1;*display:inline}
+.button span{display:inline-block;height:32px;padding-left:20px;margin-right:20px;background:url(../images/buttons.png) left -32px no-repeat;font-size:13px;font-weight:bold;color:#666;display:inline-block;zoom:1;*display:inline}
+.button-disabled{background-position:right 0}
+.button-disabled span{background-position:left 0;color:#338aab}
+.button-down{background-position:right -64px}
+.button-down span{background-position:left -64px}
+.inputFieldWrap{width:312px;height:32px;margin-bottom:0;background:url(../images/inputfields.png) 0 -64px no-repeat;border:0;outline:0;position:relative}
+.inputWithoutClearButton,.inputWithClearButton{background:url(../images/inputfields.png) 0 -64px no-repeat}
+.inputWithClearButton.focus{background:url(../images/inputfields.png) 0 -64px no-repeat}
+body.rtl .inputWithClearButton.focus{background:url(../images/inputfields.png) 0 -64px no-repeat}
+.inputWithoutClearButton.focus{background:url(../images/inputfields.png) 0 -64px no-repeat}
+.inputWithClearButton.hover{background:url(../images/inputfields.png) 0 -64px no-repeat}
+body.rtl .inputWithClearButton.hover{background:url(../images/inputfields.png) 0 -64px no-repeat}
+.inputWithoutClearButton.hover{background:url(../images/inputfields.png) 0 -64px no-repeat}
+.inputWithoutClearButton.disabled,.inputWithClearButton.disabled{background:url(../images/inputfields.png) 0 -64px no-repeat}
+.inputFieldWrap input{border:0;background-color:transparent;outline:0}
+.inputWithClearButton input{width:266px}
+.inputWithoutClearButton input{width:298px}
+input.passwordType{margin:4px 7px 0}
+input.textType{margin:6px 10px 0}
+input.disabledField{color:#b2b2b2}
+.clearFieldButton{width:30px;height:32px;position:absolute;top:0;right:0;left:auto;cursor:pointer}
+body.rtl .clearFieldButton{left:0;right:auto}
+.inputWithClearButton.disabled .clearFieldButton{cursor:default}
+#capsLock,#isEmailMessage{display:none;position:absolute;left:320px;width:320px;top:81px}
+#isEmailMessage{top:13px}
+#capsLockSkype,#isEmailMessageSkype{display:none;position:absolute;left:320px;top:81px;width:188px}
+.capsLockBody,.emailMessageBody{padding:7px 8px 3px 39px;background:url(../images/capsLock.png) 0 -15px no-repeat;font-size:13px;line-height:16px;color:#636363}
+.capsLockBodyShort,.emailMessageBodyShort{background:url(../images/capsLockShort.png) 0 -15px no-repeat}
+body.rtl .capsLockBody,body.rtl .emailMessageBody{padding:8px 39px 3px 8px;background-position:-320px -15px}
+body.rtl .capsLockBodyShort,body.rtl .emailMessageBodyShort{background-position:-188px -15px}
+.capsLockBottom,.emailMessageBottom{width:320px;height:5px;background:url(../images/capsLock.png) 0 0 no-repeat;font-size:1px}
+.capsLockBottomShort,.emailMessageBottomShort{background:url(../images/capsLockShort.png) 0 0 no-repeat;width:188px}
+body.rtl .capsLockBottom,body.rtl .emailMessageBottom{background-position:-320px 0}
+body.rtl .capsLockBottomShort,body.rtl .emailMessageBottomShort{background-position:-188px 0}
+.checkbox{padding-left:20px;cursor:default;background:url(../images/checkbox.png) left 0 no-repeat;font-size:11px;line-height:13px;color:#bfebfb;padding-bottom:1px;display:inline-block}
+body.rtl .checkbox{padding-right:20px;background-position:right 0}
+.checkbox-checked{background-position:left -64px}
+body.rtl .checkbox-checked{background-position:right -64px}
+.combobox{position:relative;width:312px;height:32px;background:url(../images/inputfields.png) 0 0 no-repeat}
+body.rtl .combobox{background-position:0 -32px}
+.combobox input{width:264px;margin:4px 7px 0;_margin-top:3px;border:0;background-color:transparent;font-size:18px;color:#333}
+.combobox input.disabledField{color:#b2b2b2}
+.dropdownButton{position:absolute;right:0;top:0;width:33px;height:32px}
+.dropdownButton span{display:none}
+.dropdownButtonEnabled{cursor:pointer}
+.dropdownButtonDisabled{cursor:default}
+.dropdown{display:none;position:absolute;left:0;top:32px;width:312px;padding-bottom:1px;background:url(../images/dropdown.png) left bottom no-repeat;z-index:3}
+.dropdown li{display:block;width:296px;height:24px;margin:0 1px;padding:0 7px;cursor:default;font-size:13px;line-height:24px;color:#333}
+.dropdown li.first{height:22px;line-height:22px;padding-bottom:2px}
+.dropdown li.selected{color:#fff}
+#fullWidthContainer{margin-bottom:31px;margin-top:12px}
+#greetingWrap{position:relative;height:48px}
+#pictureWrapInline{height:48px;width:48px;position:absolute;top:0;left:0;right:auto}
+#picturePartner{width:48px;height:48px;position:absolute;top:0;left:0}
+.liveidIcon{background:url(../images/msAccountOverlay.png) no-repeat}
+.facebookIcon{background:url(../images/fb.png) no-repeat}
+.facebookIcon,.liveidIcon{display:none;position:absolute;right:0;bottom:0;z-index:1;width:18px;height:18px}
+#partnerConnection{position:absolute;width:612px;margin-left:60px;top:0;left:0}
+body.rtl #partnerConnection{margin-right:60px;margin-left:0}
+#greetingMessage{margin-top:2px}
+#wrongAccountLink{color:#fff;font-size:11px;margin-top:2px;line-height:13px}
+.message{display:none;position:relative;padding-top:5px;margin-bottom:18px;background:url(../images/messageTop.png) center top no-repeat}
+.messageShort{background:url(../images/messageTopShort.png) center top no-repeat;width:312px;margin-bottom:15px}
+.messagePlaceholder{height:18px}
+.messagePlaceholderSmaller{height:15px}
+.messageIcon{position:absolute;left:8px;top:8px;width:16px;height:16px;background-image:url(../images/icons.png);background-repeat:no-repeat;font-size:1px}
+.messageIcon.warning{background-position:0 -16px}
+.messageIcon.error{background-position:0 0}
+.messageBody{padding-top:3px;padding-bottom:3px;padding-left:32px;padding-right:8px;background-color:#e5f7fd;font-size:13px;line-height:16px;color:#636363}
+body.rtl .messageBody{padding-left:8px;padding-right:32px}
+.messageShort .messageBody{margin-left:1px;margin-right:1px}
+.messageBottom{height:5px;background:url(../images/messageBottom.png) center top no-repeat;font-size:1px}
+.messageShort .messageBottom{background:url(../images/messageBottomShort.png) center top no-repeat}
+.messageBody a{color:#06f}
+.messageBody a:hover{color:#3a9eeb}
+.pictureContainer{width:48px;height:48px;position:absolute;top:0;left:0}
+body.rtl .pictureContainer{right:0;left:auto}
+.suggestionText{padding-top:5px;padding-left:10px;height:34px;position:absolute;top:0;left:48px;width:253px}
+body.rtl .suggestionText{right:48px;padding-left:0;padding-right:10px}
+.suggestionItem{height:48px;margin:5px}
+.suggestionName{display:block;font-size:13px;line-height:16px;font-weight:bold;color:#fff;white-space:nowrap;width:100%;overflow:hidden;text-overflow:ellipsis}
+.suggestionUsername{display:block;font-size:11px;line-height:13px;margin-top:5px;white-space:nowrap;width:100%;overflow:hidden;text-overflow:ellipsis}
+.suggestionPicture{width:48px;height:48px;vertical-align:middle}
+.suggestionsListItem{margin-bottom:8px;height:48px;position:relative}
+.suggestionsList .last{margin-bottom:0}
+.suggestionsList .hover{background:transparent!important}
+.highContrast input{border:1px solid #FFF;outline:initial;background:#fff}
+.highContrast .button,.highContrast a{cursor:pointer}
+.highContrast .dropdownButton{border:1px solid #FFF}
+.highContrast .dropdownButton span{display:block;text-align:center;padding-top:8px;font-size:16px}
+.highContrast ul.dropdown{border:1px solid #FFF}
+.highContrast ul.dropdown li{cursor:pointer}
+.highContrast .passwordType,.highContrast #password,.highContrast #passwordSkype{font-size:18px}
+.highContrast #connectIcon,.highContrast #pictureWrapInline .facebookIcon,.highContrast #pictureWrapInline .liveidIcon{background:0}
+.highContrast .suggestionsList{padding:0;margin:0;position:relative}
+.highContrast .suggestionsListItem{cursor:pointer;padding:0;margin:0 0 2px;display:block;float:left;clear:left}
+.highContrast .suggestionItem{margin:0;padding:0;position:relative}
+.highContrast .suggestionUsername{line-height:125%}
+.highContrast #signInSkype{display:block;float:left}
+.highContrast .button span{display:block}
+.highContrast .backLink{float:right}
+.highContrast #suggestView .pad{display:none}
+.highContrastClear{display:none}
+.highContrast .highContrastClear{display:block;clear:both}
+.highContrastCheckbox{display:none}
+.highContrast .highContrastCheckbox{display:inline}
+.highContrast .checkbox{padding-left:5px}
+.highContrastLoading{display:none}
+.highContrast #loaderLoading{left:0}
+.highContrast .highContrastLoading{display:block;text-align:center;width:720px;font-size:20px;line-height:135%}
+.highContrast #loaderLoading img,.highContrast #loaderDefault img{display:none}
+.highContrast #loaderDefault .highContrastLoading{width:150px}
+.skypeLogoHighContrast{display:none}
+.highContrast .skypeLogoHighContrast{display:block;position:absolute;font-size:30px;text-align:center;top:40px;left:0;width:100%;line-height:135%}
+.highContrast label{display:block}
+.highContrast .contentHelper{line-height:12px}
+.highContrast #createAccountInline{font-size:13px;line-height:12px}
+.highContrast .dropdown{background:#fff}
+.highContrast .passwordLabelContainer{clear:both}
+.highContrast #greetingMessage{line-height:175%}

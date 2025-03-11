@@ -1,0 +1,28 @@
+html,body{height:100%;overflow:hidden}
+*:focus{outline:0}
+.titleSmall{font-family:Helvetica;text-shadow:0 0 2px rgba(0,0,0,0.35)}
+.titleLarge{font-family:Helvetica;text-shadow:0 0 2px rgba(0,0,0,0.35);line-height:22px}
+.paragraph{font-family:Lucida Grande;text-shadow:0 0 2px rgba(0,0,0,0.35)}
+.paragraph a{font-family:Lucida Grande;text-shadow:0 0 2px rgba(0,0,0,0.35)}
+.usernameLabel{font-family:Helvetica;text-shadow:0 0 2px rgba(0,0,0,0.35)}
+.combobox input{font-family:Helvetica}
+.dropdown li{font-family:Helvetica}
+.dropdown li.selected{background-color:#007ec4}
+.passwordLabel{font-family:Helvetica;text-shadow:0 0 2px rgba(0,0,0,0.35)}
+#password,#passwordSkype{font-family:Helvetica;font-size:18px}
+#problemsSigningIn,#problemsSigningInSkype{font-family:Lucida Grande;text-shadow:0 0 2px rgba(0,0,0,0.35)}
+#createAccountInlineContainer{font-family:Helvetica;text-shadow:0 0 2px rgba(0,0,0,0.35);line-height:32px}
+#liveLogin span,#facebookLogin span{font-family:Helvetica;text-shadow:0 0 2px rgba(0,0,0,0.35);line-height:20px}
+#liveidHint{font-family:Lucida Grande;text-shadow:0 0 2px rgba(0,0,0,0.35)}
+.messageBody,#messageBodyConflict{font-family:Helvetica}
+.checkbox{font-family:Lucida Grande;text-shadow:0 0 2px rgba(0,0,0,0.35)}
+.button span{font-family:Helvetica;line-height:32px;text-shadow:0 1px 1px rgba(255,255,255,0.75)}
+#wrongAccountLink{font-family:Lucida Grande;text-shadow:0 0 2px rgba(0,0,0,0.35)}
+.startAgainLink,.backLink{font-family:Helvetica;text-shadow:0 0 2px rgba(0,0,0,0.35);line-height:32px}
+.suggestionName{font-family:Helvetica;text-shadow:0 0 2px rgba(0,0,0,0.35)}
+.suggestionUsername{font-family:Lucida Grande;text-shadow:0 0 2px rgba(0,0,0,0.35)}
+#partnerAccountName{font-family:Helvetica;text-shadow:0 0 2px rgba(0,0,0,0.35)}
+#skypeAccountName{font-family:Helvetica;text-shadow:0 0 2px rgba(0,0,0,0.35)}
+#conflictOptions{font-family:Lucida Grande;text-shadow:0 0 2px rgba(0,0,0,0.35)}
+#liveidCSLink,#facebookCSLink{font-family:Lucida Grande;text-shadow:0 0 2px rgba(0,0,0,0.35)}
+.capsLockBody{font-family:Helvetica}

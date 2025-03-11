@@ -1,0 +1,58 @@
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (min-device-pixel-ratio:2){#background{background:#00aff0 url(../../images/retina/background@2x.png);background-size:720px 472px}
+#liveLogin,#liveLoginEmailMessage{background-size:18px 18px}
+#liveLogin{background-image:url(../../images/retina/msAccount@2x.png)}
+#liveLoginEmailMessage{background-image:url(../../images/retina/msAccountColour@2x.png)}
+#loaderLoading img,#loaderDefault img{display:none}
+#loaderLoading,#loaderDefault{background:url(../../images/retina/loader@2x.png) no-repeat;background-size:96px 96px;width:96px;height:96px;animation:loader 1.25s linear 0s infinite;-moz-animation:loader 1.25s linear 0s infinite;-webkit-animation:loader 1.25s linear 0s infinite;-o-animation:loader 1.25s linear 0s infinite}
+@keyframes loader{0%{transform:rotate(0deg)}
+100%{transform:rotate(360deg)}
+}
+@-moz-keyframes loader{0%{-moz-transform:rotate(0deg)}
+100%{-moz-transform:rotate(360deg)}
+}
+@-o-keyframes loader{0%{transform:rotate(0deg)}
+100%{transform:rotate(360deg)}
+}
+@-webkit-keyframes loader{0%{-webkit-transform:rotate(0deg)}
+100%{-webkit-transform:rotate(360deg)}
+}
+#facebookLogin,#facebookLoginEmailMessage{background-image:url(../../images/retina/fb@2x.png);background-size:18px 18px}
+#connectIcon{background-image:url(../../images/retina/plus@2x.png);background-size:24px 24px}
+.skypeBack{background-image:url(../../images/retina/skype@2x.png);background-size:18px 18px}
+.liveidBack{background-image:url(../../images/retina/msAccount@2x.png);background-size:18px 18px}
+.facebookBack{background-image:url(../../images/retina/fb@2x.png);background-size:18px 18px}
+#messageErrorConflict{background-image:url(../../images/retina/messageTopShort@2x.png);background-size:310px 5px}
+#messageErrorConflict .messageBottom{background-image:url(../../images/retina/messageBottomShort@2x.png);background-size:310px 15px}
+}
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (min-device-pixel-ratio:2){.button{background-image:url(../../images/retina/buttons@2x.png);background-size:1200px 160px}
+.button span{background-image:url(../../images/retina/buttons@2x.png);background-size:1200px 160px}
+}
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (min-device-pixel-ratio:2){.inputFieldWrap{background-image:url(../../images/retina/inputfields@2x.png);background-size:312px 96px}
+.inputWithoutClearButton,.inputWithClearButton{background-image:url(../../images/retina/inputfields@2x.png);background-size:312px 96px}
+.inputWithClearButton.focus{background-image:url(../../images/retina/inputfields@2x.png);background-size:312px 96px}
+body.rtl .inputWithClearButton.focus{background-image:url(../../images/retina/inputfields@2x.png);background-size:312px 96px}
+.inputWithoutClearButton.focus{background-image:url(../../images/retina/inputfields@2x.png);background-size:312px 96px}
+.inputWithClearButton.hover{background-image:url(../../images/retina/inputfields@2x.png);background-size:312px 96px}
+body.rtl .inputWithClearButton.hover{background-image:url(../../images/retina/inputfields@2x.png);background-size:312px 96px}
+.inputWithoutClearButton.hover{background-image:url(../../images/retina/inputfields@2x.png);background-size:312px 96px}
+.inputWithoutClearButton.disabled,.inputWithClearButton.disabled{background-image:url(../../images/retina/inputfields@2x.png);background-size:312px 96px}
+}
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (min-device-pixel-ratio:2){.capsLockBody{background-image:url(../../images/retina/capsLock@2x.png);background-size:640px 160px}
+.capsLockBodyShort{background-image:url(../../images/retina/capsLockShort@2x.png);background-size:376px 160px}
+.capsLockBottom{background-image:url(../../images/retina/capsLock@2x.png);background-size:640px 160px;font-size:1px}
+.capsLockBottomShort{background-image:url(../../images/retina/capsLockShort@2x.png);background-size:376px 160px;width:188px}
+}
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (min-device-pixel-ratio:2){.checkbox{background-image:url(../../images/retina/checkbox@2x.png);background-size:14px 78px}
+}
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (min-device-pixel-ratio:2){.combobox{background-image:url(../../images/retina/inputfields@2x.png);background-size:312px 96px}
+.dropdown{background-image:url(../../images/retina/dropdown@2x.png);background-size:312px 250px}
+}
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (min-device-pixel-ratio:2){.liveidIcon{background-image:url(../../images/retina/msAccountOverlay@2x.png);background-size:18px 18px}
+.facebookIcon{background-image:url(../../images/retina/fb@2x.png);background-size:18px 18px}
+}
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (min-device-pixel-ratio:2){.message{background-image:url(../../images/retina/messageTop@2x.png);background-size:672px 5px}
+.messageShort{background-image:url(../../images/retina/messageTopShort@2x.png);background-size:310px 5px}
+.messageIcon{background-image:url(../../images/retina/icons@2x.png);background-size:16px 32px;font-size:1px}
+.messageBottom{background-image:url(../../images/retina/messageBottom@2x.png);background-size:672px 15px;font-size:1px}
+.messageShort .messageBottom{background-image:url(../../images/retina/messageBottomShort@2x.png);background-size:310px 15px}
+}

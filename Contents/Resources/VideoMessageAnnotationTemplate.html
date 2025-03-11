@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+			<title></title>
+			<style type="text/css">
+				.header {
+					margin: 0;
+					padding-left: 46px;
+					height: 32px;
+					overflow: hidden;
+					background-size: 32px 32px;
+					white-space: nowrap;
+					text-overflow: ellipsis;
+				}
+				span.namecell {
+					font-size: 15px;
+					font-weight: bold;
+					font-family: "Helvetica Neue";
+				}
+				span.datecell  {
+					color: rgba(0,0,0,0.5);
+					font-size: 11px;
+					font-family: "Lucida Grande";
+				}
+				.message {
+					color: rgba(0,0,0,0.8);
+					font-size: 12px;
+					font-family: "Helvetica Neue";
+					padding-top: 26px;
+					clear: both;
+					width: 100%;
+				}
+				.message a {
+					color: #007ec4;
+					text-decoration: none;
+				}
+				.message p {
+					padding: 0;
+					margin: 0;
+					word-wrap: break-word;
+				}
+				body {
+					margin: 0;
+				}
+				</style>
+			</head>
+	<body>
+		<div class="header" style="background:url(%%AVATAR%%) center left no-repeat">
+			<span class="namecell">%%NAME%%</span><br />
+			<span class="datecell">%%DATE%%</span>
+		</div>
+		<div class="message">
+			<p>%%MESSAGE%%</p>
+		</div>
+	</body>
+</html>
