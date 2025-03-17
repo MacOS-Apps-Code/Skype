@@ -1,0 +1,50 @@
+{
+    "type": "message/card",
+    "attachments": [
+                    {
+                    "contentType": "application/vnd.microsoft.card.hero",
+                    "content": {
+                    "title": "Suggested Actions"
+                    }
+                    }
+                    ],
+    "suggestedActions": {
+        "to": ["user1", "user2", "user3"],
+        "actions": [
+                    {
+                    "type": "call",
+                    "title": "Call",
+                    "value": "skype:echo123",
+                    "image": "https://static-asm.secure.skypeassets.com/pes/v1/emoticons/skype/views/default_40"
+                    },
+                    {
+                    "type": "openUrl",
+                    "title": "Open document",
+                    "value": "https://bing.com",
+                    "image": "https://static-asm.secure.skypeassets.com/pes/v1/emoticons/word/views/default_40"
+                    },
+                    {
+                    "type": "imBack",
+                    "title": "Dino",
+                    "value": "(win10)",
+                    "image": "https://static-asm.secure.skypeassets.com/pes/v1/emoticons/win10/views/default_40"
+                    },
+                    {
+                    "type" : "invoke",
+                    "title" : " Get more...",
+                    "payload" : { "category":"034985304853049", "operation": "get-more" }
+                    },
+                    {
+                    "type": "openUrl",
+                    "title": "File a bug",
+                    "value": "https://skype.visualstudio.com/",
+                    "image": "https://static-asm.secure.skypeassets.com/pes/v1/emoticons/bug/views/default_40"
+                    },
+                    {
+                    "type": "imBack",
+                    "title": "Lunch",
+                    "value": "Let's go have lunch"
+                    }
+                    ]
+    }
+}

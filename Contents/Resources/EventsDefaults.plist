@@ -353,6 +353,29 @@
 			<key>Speak</key>
 			<false/>
 		</dict>
+		<key>ReactionReceived</key>
+		<dict>
+			<key>EnableVisualNotification</key>
+			<true/>
+			<key>IsAlertSound</key>
+			<true/>
+			<key>SortIndex</key>
+			<integer>5</integer>
+			<key>Category</key>
+			<integer>3</integer>
+			<key>Display</key>
+			<true/>
+			<key>Bounce</key>
+			<false/>
+			<key>PlaySound</key>
+			<true/>
+			<key>RepeatBounce</key>
+			<false/>
+			<key>SoundToPlay</key>
+			<string>Reaction Received</string>
+			<key>Speak</key>
+			<false/>
+		</dict>
 		<key>SignIn</key>
 		<dict>
 			<key>EnableVisualNotification</key>
@@ -447,6 +470,31 @@
 			<key>Speak</key>
 			<false/>
 		</dict>
+		<key>CallConnecting2</key>
+		<dict>
+			<key>EnableVisualNotification</key>
+			<false/>
+			<key>IsAlertSound</key>
+			<false/>
+			<key>SortIndex</key>
+			<integer>3</integer>
+			<key>Category</key>
+			<integer>2</integer>
+			<key>Display</key>
+			<false/>
+			<key>Bounce</key>
+			<false/>
+			<key>PlaySound</key>
+			<true/>
+			<key>RepeatBounce</key>
+			<false/>
+			<key>RepeatSound</key>
+			<true/>
+			<key>SoundToPlay</key>
+			<string>Call Connecting</string>
+			<key>Speak</key>
+			<false/>
+		</dict>
 		<key>RemotePartyHungUp</key>
 		<dict>
 			<key>EnableVisualNotification</key>
@@ -513,29 +561,6 @@
 			<false/>
 			<key>SoundToPlay</key>
 			<string>File Transfer Failed</string>
-			<key>Speak</key>
-			<false/>
-		</dict>
-		<key>DesktopAPIClientConnected</key>
-		<dict>
-			<key>EnableVisualNotification</key>
-			<true/>
-			<key>IsAlertSound</key>
-			<true/>
-			<key>SortIndex</key>
-			<integer>0</integer>
-			<key>Category</key>
-			<integer>6</integer>
-			<key>Display</key>
-			<true/>
-			<key>Bounce</key>
-			<false/>
-			<key>PlaySound</key>
-			<true/>
-			<key>RepeatBounce</key>
-			<false/>
-			<key>SoundToPlay</key>
-			<string>Connection</string>
 			<key>Speak</key>
 			<false/>
 		</dict>
@@ -753,6 +778,13 @@
 			<string>Voicemail</string>
 			<key>LocalizedKey</key>
 			<string>AlertSoundName_Voicemail</string>
+		</dict>
+		<key>Item - 28</key>
+		<dict>
+			<key>Name</key>
+			<string>Reaction Received</string>
+			<key>LocalizedKey</key>
+			<string>AlertSoundName_ReactionReceived</string>
 		</dict>
 	</dict>
 </dict>

@@ -1,0 +1,57 @@
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "4pM-zj-Ooy"; */
+"4pM-zj-Ooy.title" = "Box";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "6cl-60-GY1"; */
+"6cl-60-GY1.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "To:"; ObjectID = "7WF-cA-zoS"; */
+"7WF-cA-zoS.title" = "To:";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "BL6-9E-l0S"; */
+"BL6-9E-l0S.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "To send a message you need to be logged in to Skype. Do you want to launch Skype and log in?"; ObjectID = "BXo-Iv-g7r"; */
+"BXo-Iv-g7r.title" = "To send a message you need to be logged in to Skype. Do you want to launch Skype and log in?";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "OpQ-Sl-sGl"; */
+"OpQ-Sl-sGl.title" = "Cancel";
+
+/* Class = "NSButtonCell"; title = "Send"; ObjectID = "Ptn-ex-t2a"; */
+"Ptn-ex-t2a.title" = "Send";
+
+/* Class = "NSTextFieldCell"; title = "Skype"; ObjectID = "VEl-8s-1wY"; */
+"VEl-8s-1wY.title" = "Skype";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Add recipients"; ObjectID = "awl-Rh-dDs"; */
+"awl-Rh-dDs.ibExternalAccessibilityDescription" = "Add recipients";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Add recipients"; ObjectID = "awl-Rh-dDs"; */
+"awl-Rh-dDs.ibShadowedToolTip" = "Add recipients";
+
+/* Class = "NSTextFieldCell"; title = "MESSAGE NOTR"; ObjectID = "cbw-el-edf"; */
+"cbw-el-edf.title" = "MESSAGE NOTR";
+
+/* Class = "NSTextFieldCell"; title = "No account is connected"; ObjectID = "csB-Oz-qHa"; */
+"csB-Oz-qHa.title" = "No account is connected";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "eBf-Ed-zvF"; */
+"eBf-Ed-zvF.title" = "Cancel";
+
+/* Class = "NSTextFieldCell"; title = "TITLE NOTR"; ObjectID = "eq5-F6-iO6"; */
+"eq5-F6-iO6.title" = "TITLE NOTR";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "gDN-Qs-2R8"; */
+"gDN-Qs-2R8.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "Loading conversations NOTR"; ObjectID = "wVn-Hh-iJD"; */
+"wVn-Hh-iJD.title" = "Loading conversations NOTR";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "xSV-id-atn"; */
+"xSV-id-atn.title" = "Cancel";
+
+/* Class = "NSButtonCell"; title = "Log In"; ObjectID = "y2i-qo-Gjo"; */
+"y2i-qo-Gjo.title" = "Log In";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "za3-NE-iJg"; */
+"za3-NE-iJg.title" = "Box";

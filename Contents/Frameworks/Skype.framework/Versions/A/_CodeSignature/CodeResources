@@ -6,27 +6,55 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		eD3PKU+NfDTWFseJ4Qr0+nEENsY=
+		ROInCmP/CoE8SkVMM8Bggraxrb8=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Headers/Skype.h</key>
-		<data>
-		3A/VsSciSMgKqGpDQzAYqsyBx2g=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			3A/VsSciSMgKqGpDQzAYqsyBx2g=
+			</data>
+			<key>hash2</key>
+			<data>
+			HEfUeYZ9J4OwMmIhIM097+3nbl99zK23B8n+RICGXZc=
+			</data>
+		</dict>
 		<key>Headers/SkypeAPI-Carbon.h</key>
-		<data>
-		zQGUndqyDg8g6BQA3bDU6G0eKsc=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			zQGUndqyDg8g6BQA3bDU6G0eKsc=
+			</data>
+			<key>hash2</key>
+			<data>
+			L2/bP+YQnnWGZS396GXcPFdLCNimh//mAv9HlBJ7N0c=
+			</data>
+		</dict>
 		<key>Headers/SkypeAPI.h</key>
-		<data>
-		S3sdMgBszUpJMmkkHO8KUHl78wY=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			S3sdMgBszUpJMmkkHO8KUHl78wY=
+			</data>
+			<key>hash2</key>
+			<data>
+			gEoe3adkcEkuJ4X8Q2DNq/COc9Vh8ewkPOgQZ10oXm0=
+			</data>
+		</dict>
 		<key>Resources/Info.plist</key>
-		<data>
-		eD3PKU+NfDTWFseJ4Qr0+nEENsY=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			ROInCmP/CoE8SkVMM8Bggraxrb8=
+			</data>
+			<key>hash2</key>
+			<data>
+			FS6j6ITJ6f5+wFttXN2JIRgqgJVvXZOnS+0aWeTwMVQ=
+			</data>
+		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
@@ -45,6 +73,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^version.plist$</key>
 		<true/>
@@ -104,6 +137,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^[^/]+$</key>
 		<dict>

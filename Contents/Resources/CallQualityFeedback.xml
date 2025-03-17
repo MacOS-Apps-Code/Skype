@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qs qid="100">
+    <q token="101"><ql uri="skype:?cqg&target=audio.nolocal&ui_entrypoint=cqf" />AUDIO_TOKEN_NO_SOUND_LOCAL</q>
+    <q token="102"><ql uri="skype:?cqg&target=audio.noremote&ui_entrypoint=cqf" />AUDIO_TOKEN_NO_SOUND_REMOTE</q>
+    <q token="103"><ql uri="skype:?cqg&target=audio.quality.echo&ui_entrypoint=cqf" />AUDIO_TOKEN_ECHO</q>
+    <q token="104"><ql uri="skype:?cqg&target=audio.quality.noise&ui_entrypoint=cqf" />AUDIO_TOKEN_NOISE</q>
+    <q token="105"><ql uri="skype:?cqg&target=audio.quality.volume&ui_entrypoint=cqf" />AUDIO_TOKEN_LOW_SOUND</q>
+    <q token="106"><ql uri="skype:?cqg&target=audio.dropped&ui_entrypoint=cqf" />AUDIO_TOKEN_DROPPED</q>
+    <q token="107"><ql uri="skype:?cqg&target=audio.quality.distorted&ui_entrypoint=cqf" />AUDIO_TOKEN_DISTORTED</q>
+    <q token="108"><ql uri="skype:?cqg&target=audio.quality.delay&ui_entrypoint=cqf" />AUDIO_TOKEN_INTERRUPTED</q>
+    <qe token="109" editlength="100"><ql uri="skype:?cqg&target=audio.other&ui_entrypoint=cqf" />AUDIO_TOKEN_OTHER</qe>
+    <vq token="201"><ql uri="skype:?cqg&target=video.nolocal&ui_entrypoint=cqf" />VIDEO_TOKEN_NO_VIDEO_LOCAL</vq>
+    <vq token="202"><ql uri="skype:?cqg&target=video.noremote&ui_entrypoint=cqf" />VIDEO_TOKEN_NO_VIDEO_REMOTE</vq>
+    <vq token="203"><ql uri="skype:?cqg&target=video.quality.poor&ui_entrypoint=cqf" />VIDEO_TOKEN_LOW_QUALITY</vq>
+    <vq token="204"><ql uri="skype:?cqg&target=video.quality.freezing&ui_entrypoint=cqf" />VIDEO_TOKEN_FREEZING</vq>
+    <vq token="205"><ql uri="skype:?cqg&target=video.dropped&ui_entrypoint=cqf" />VIDEO_TOKEN_STOPPED_UNEXPECTEDLY</vq>
+    <vq token="206"><ql uri="skype:?cqg&target=video.quality.dark&ui_entrypoint=cqf" />VIDEO_TOKEN_OTHER_SIDE_TOO_DARK</vq>
+    <vq token="207"><ql uri="skype:?cqg&target=video.quality.sync&ui_entrypoint=cqf" />VIDEO_TOKEN_NO_AUDIO_SYNC</vq>
+    <vqe token="208" editlength="100"><ql uri="skype:?cqg&target=video.other&ui_entrypoint=cqf" />VIDEO_TOKEN_OTHER</vqe>
+    <so>101 102 103 104 105 106 107 108 109 201 202 203 204 205 206 207 208</so>
+</qs>
